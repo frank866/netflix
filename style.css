@@ -76,7 +76,9 @@
     font-size: 20px;
 }
 .head .page .info{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .head .page .info input{
     font-size: 16px;
