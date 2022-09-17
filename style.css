@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.head{
+    background-image: url(./nfb2.png);
+    width: 100%;
+    height: 100vh;
+}
+.head .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 50px;
+}
+.head .logo img{
+    width: 14%;
+}
+.head .logo a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(221, 4, 4);
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+.head .logo a:hover{
+    background-color: red;
+}
+.head .page{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    height: 100%;
+}
+/* .head .page::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, rgb(0,0,0), transparent);
+}
+.head .page::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgb(0,0,0), transparent);
+} */
+.head .page .word{
+    color: white;
+    padding-bottom: 20px;
+}
+.head .page .word h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.head .page .word .top{
+    font-size: 27px;
+    padding-bottom: 30px;
+}
+.head .page .word .down{
+    font-size: 20px;
+}
+.head .page .info{
+    display: inline-flex;
+}
+.head .page .info input{
+    font-size: 16px;
+    outline: none;
+    color: black;
+    border: 1px solid white;
+    width: 450px;
+    height: 65px;
+    padding-left: 10px;
+}
+.head .page .info .start{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(221, 4, 4);
+    line-height: 65px;
+    width: 200px;
+    font-size: 27px;
+}
